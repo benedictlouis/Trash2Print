@@ -10,7 +10,7 @@ const BuyFilaments = () => {
       name: "Bottle Filament",
       price: "Rp 5.000",
       originalPrice: "Rp 10.000",
-      image: "${import.meta.env.BASE_URL}lovable-uploads/image2.png",
+      image: `${import.meta.env.BASE_URL}lovable-uploads/image2.png`,
       description: "Filament PET ramah lingkungan dari daur ulang botol plastik. Kualitas premium untuk hasil printing terbaik.",
       features: ["100% Recycled", "1.75mm diameter", "1kg weight", "Biodegradable"],
       buyLink: "https://tk.tokopedia.com/ZSkhpM1YC/"
@@ -19,7 +19,7 @@ const BuyFilaments = () => {
       name: "ABS Eco Strong",
       price: "Rp 123.000",
       originalPrice: "Rp 150.000",
-      image: "${import.meta.env.BASE_URL}lovable-uploads/image1.png",
+      image: `${import.meta.env.BASE_URL}lovable-uploads/image1.png`,
       description: "Filament ABS daur ulang dengan kekuatan tinggi. Ideal untuk prototyping dan aplikasi engineering.",
       features: ["High Strength", "Heat Resistant", "1.75mm diameter", "1kg weight"],
       buyLink: "https://tk.tokopedia.com/ZSkhcbm2s/"
@@ -28,7 +28,7 @@ const BuyFilaments = () => {
       name: "PETG Eco Clear",
       price: "Rp 148.000",
       originalPrice: "Rp 180.000",
-      image: "/lovable-uploads/image.png",
+      image: `${import.meta.env.BASE_URL}lovable-uploads/image.png`,
       description: "Filament PETG transparan dari daur ulang. Kombinasi sempurna antara kekuatan dan transparansi.",
       features: ["Crystal Clear", "Chemical Resistant", "1.75mm diameter", "1kg weight"],
       buyLink: "https://tk.tokopedia.com/ZSkhcpXEF/"
@@ -264,7 +264,7 @@ const BuyFilaments = () => {
               <div className="bg-gradient-to-br from-trash2print-green-light to-trash2print-green-primary p-8 rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 group">
                 <div className="bg-white p-6 rounded-2xl group-hover:bg-gray-50 transition-colors duration-300">
                   <img 
-                    src="https://images.unsplash.com/photo-1500673922987-e212871fec22?w=500&h=300&fit=crop&crop=center" 
+                    src={`${import.meta.env.BASE_URL}lovable-uploads/photo-1500673922987-e212871fec22.jpg`}
                     alt="3D Printing Process" 
                     className="w-full h-48 object-cover rounded-xl group-hover:scale-105 transition-transform duration-500"
                   />
