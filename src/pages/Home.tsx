@@ -156,7 +156,7 @@ const Home = () => {
               <div className="bg-gradient-to-br from-trash2print-green-light to-trash2print-green-primary p-8 rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 group">
                 <div 
                   className="relative p-6 rounded-2xl h-60 flex items-center justify-center cursor-pointer overflow-hidden bg-cover bg-center"
-                  style={{ backgroundImage: `url('/lovable-uploads/Tumbnail.png')` }}
+                  style={{ backgroundImage: `url(${import.meta.env.BASE_URL}lovable-uploads/Tumbnail.png)` }}
                   onClick={() => setVideoModalOpen(true)}
                 >
                   <div className="absolute inset-0 bg-black bg-opacity-40 group-hover:bg-opacity-50 transition-opacity duration-300"></div>
