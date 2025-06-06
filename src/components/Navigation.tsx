@@ -24,7 +24,7 @@ const Navigation = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <img 
-              src="/lovable-uploads/7688b3a7-4ffe-4e17-9f8c-7125548a93ee.png" 
+              src="${import.meta.env.BASE_URL}lovable-uploads/7688b3a7-4ffe-4e17-9f8c-7125548a93ee.png" 
               alt="Trash2Print Logo" 
               className="h-8 w-auto"
             />

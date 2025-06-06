@@ -86,7 +86,7 @@ const Home = () => {
               <div className="bg-white/10 backdrop-blur-sm p-8 rounded-3xl shadow-2xl border border-white/20 hover:bg-white/15 transition-all duration-500">
                 <div className="relative overflow-hidden rounded-2xl">
                   <img 
-                    src="/lovable-uploads/Render_Trash2Print.png" 
+                    src="${import.meta.env.BASE_URL}lovable-uploads/Render_Trash2Print.png" 
                     alt="Trash2Print Process" 
                     className="w-full h-auto transform hover:scale-105 transition-transform duration-500"
                   />

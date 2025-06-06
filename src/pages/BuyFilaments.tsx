@@ -10,7 +10,7 @@ const BuyFilaments = () => {
       name: "Bottle Filament",
       price: "Rp 5.000",
       originalPrice: "Rp 10.000",
-      image: "/lovable-uploads/image2.png",
+      image: "${import.meta.env.BASE_URL}lovable-uploads/image2.png",
       description: "Filament PET ramah lingkungan dari daur ulang botol plastik. Kualitas premium untuk hasil printing terbaik.",
       features: ["100% Recycled", "1.75mm diameter", "1kg weight", "Biodegradable"],
       buyLink: "https://tk.tokopedia.com/ZSkhpM1YC/"
@@ -19,7 +19,7 @@ const BuyFilaments = () => {
       name: "ABS Eco Strong",
       price: "Rp 123.000",
       originalPrice: "Rp 150.000",
-      image: "/lovable-uploads/image1.png",
+      image: "${import.meta.env.BASE_URL}lovable-uploads/image1.png",
       description: "Filament ABS daur ulang dengan kekuatan tinggi. Ideal untuk prototyping dan aplikasi engineering.",
       features: ["High Strength", "Heat Resistant", "1.75mm diameter", "1kg weight"],
       buyLink: "https://tk.tokopedia.com/ZSkhcbm2s/"
